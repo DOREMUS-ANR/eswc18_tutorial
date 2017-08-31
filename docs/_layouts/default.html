@@ -1,6 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
   <body>
-     {{ content }}
+    <section class="cover">
+      <div class="inside">
+        <div class="description">
+          <h1>{{page.mainTitle}}</h1>
+          <h2>{{page.title}}</h2>
+        </div>
+        <div class="logo"><img src="img/doremus.logo.w.png"></div>
+      </div>
+    </section>
+    <div class="mainContent">
+      {{ content }}
+    </div>
+    <footer id="appFooter">
+      <div class="footerCont">
+        <div>
+          <p class="descr">The <strong>DOREMUS Tutorial</strong> live inside the<a href="http://www.doremus.org" rel="external" target="_blank">DOREMUS project</a>, for describing, publishing, connecting and contextualizing music catalogues on the web of data.<br><br>Photo credit:<a href="https://flic.kr/p/7tyYM9">CodeFin</a></p>
+        </div>
+        <div class="projLogoCont"><a href="http://www.doremus.org" rel="external" target="_blank"><img src="http://www.doremus.org/wp-content/uploads/2015/06/Logotype-Doremus-VA-Couleurs.png"></a></div>
+      </div>
+    </footer>
   </body>
 </html>
