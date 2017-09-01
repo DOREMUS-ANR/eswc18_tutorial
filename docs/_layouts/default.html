@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>{{page.title}}</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <section class="cover">
-      <div class="inside">
-        <div class="description">
-          <h1>{{page.mainTitle}}</h1>
-          <h2>{{page.title}}</h2>
-        </div>
-        <div class="logo"><img src="img/doremus.logo.w.png"></div>
+
+<head>
+  <title>{{page.title}} | DOREMUS Tutorial</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <section class="cover">
+    <div class="inside">
+      <div class="description">
+        <h1>DOing REusable MUSical data</h1>
+        <h2>DOREMUS Tutorial at <a href="http://k-cap2017.org/" rel="external" target="_blank">K-CAP 2017</a></h2>
       </div>
-    </section>
-    <div class="mainContent">
-      {{ content }}
+      <div class="logo"><img src="img/doremus.logo.w.png"></div>
     </div>
-    <footer id="appFooter">
-      <div class="footerCont">
-        <div>
-          <p class="descr">The <strong>DOREMUS Tutorial</strong> live inside the<a href="http://www.doremus.org" rel="external" target="_blank">DOREMUS project</a>, for describing, publishing, connecting and contextualizing music catalogues on the web of data.<br><br>Photo credit:<a href="https://flic.kr/p/7tyYM9">CodeFin</a></p>
-        </div>
-        <div class="projLogoCont"><a href="http://www.doremus.org" rel="external" target="_blank"><img src="http://www.doremus.org/wp-content/uploads/2015/06/Logotype-Doremus-VA-Couleurs.png"></a></div>
+    <nav class="mainNav">
+      <ul>
+        {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %} {% for p in navigation_pages %} {% if p.navigation_weight %}
+        <li>
+          <a href="{{ p.url }}" {% if p.url==page.url %}class="active" {% endif %}>
+            {{ p.title }}
+          </a>
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
+    </nav>
+
+  </section>
+
+  <div class="mainContent">
+    {{ content }}
+  </div>
+  <footer id="appFooter">
+    <div class="footerCont">
+      <div>
+        <p class="descr">The <strong>DOREMUS Tutorial</strong> live inside the<a href="http://www.doremus.org" rel="external" target="_blank">DOREMUS project</a>, for describing, publishing, connecting and contextualizing music catalogues on the web of data.<br><br>Photo
+          credit:
+          <a href="https://flic.kr/p/7tyYM9">CodeFin</a></p>
       </div>
-    </footer>
-  </body>
+      <div class="projLogoCont"><a href="http://www.doremus.org" rel="external" target="_blank"><img src="http://www.doremus.org/wp-content/uploads/2015/06/Logotype-Doremus-VA-Couleurs.png"></a></div>
+    </div>
+  </footer>
+</body>
+
 </html>
