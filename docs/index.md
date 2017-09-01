@@ -1,6 +1,6 @@
 ---
 mainTitle: DOing REusable MUSical data
-title: DOREMUS Tutorial at K-CAP 201
+title: DOREMUS Tutorial at K-CAP 2017
 layout: default
 ---
 
