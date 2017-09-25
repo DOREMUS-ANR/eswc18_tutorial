@@ -308,4 +308,31 @@ h1 {
   opacity: 0.5;
   font-size: 0.8em;
 }
+.profile-pic {
+  float: left;
+  margin: 0 1em 1em 0;
+  border-radius: 50%;
+  border: 1px solid #a7a7a7;
+}
+@media only screen and (min-width: 600px) {
+  .textblock {
+    margin-left: 110px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .textblock {
+    clear: both;
+  }
+}
+.mainContent section {
+  margin: 4em 0;
+}
+h3 + h4 {
+  margin-top: -1em;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+h3 + h4 + p {
+  margin: 0;
+}
 /*# sourceMappingURL=styles.css.map */
