@@ -10,7 +10,7 @@ navigation_weight: 2
 
 <section markdown="1">
 
-![Pasquale Lisena](https://avatars3.githubusercontent.com/u/4126222?v=4&s=90){: .profile-pic}
+![Pasquale Lisena](https://pbs.twimg.com/profile_images/906946245637414913/AF_Uc6Tc_400x400.jpg){: .profile-pic}
 ### Pasquale Lisena
 #### EURECOM, Sophia Antipolis, France
 [mail](mailto:pasquale.lisena@eurecom.fr) - [website](http://pasqlisena.github.io/)
@@ -24,7 +24,7 @@ Pasquale Lisena is currently a PhD candidate in the Data Science department at E
 
 <section markdown="1">
 
-![Raphaël Troncy](https://avatars3.githubusercontent.com/u/1051318?v=4&s=90){: .profile-pic}
+![Raphaël Troncy](https://pbs.twimg.com/profile_images/458965276285878272/SZ7b6HyG_400x400.jpeg){: .profile-pic}
 ### Raphaël Troncy
 #### EURECOM, Sophia Antipolis, France
 [mail](mailto:raphael.troncy@eurecom.fr) - [website](http://www.eurecom.fr/~troncy/)

@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <base href="https://doremus-anr.github.io/kcap17_tutorial/">
+  <base href="./">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
       <ul>
         {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %} {% for p in navigation_pages %} {% if p.navigation_weight %}
         <li>
-          <a href="/kcap17_tutorial{{ p.url }}" {% if p.url==page.url %}class="active" {% endif %}>
+          <a href="{{ p.url }}" {% if p.url==page.url %}class="active" {% endif %}>
             {{ p.title }}
           </a>
         </li>
