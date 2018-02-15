@@ -31,7 +31,7 @@ Pasquale Lisena is currently a PhD candidate in the Data Science department at E
 
 <p class="textblock" markdown="1">
 
-Raphaël Troncy is an associate professor in the Data Science department at EURECOM whose research mainly concerns the use of semantic web technologies in multimedia systems, knowledge modeling for information systems, data integration, knowledge extraction and web science in general. He is the primary investigator of a number of national (e.g. ACAV, Datalift, DOREMUS, ASRAEL, NexGen-TV) and EU projects (e.g. Apps4Europe, LinkedTV, MediaMixer, 3cixty, PasTime) in the area of this tutorial proposal. He was a co-organiser of numerous workshops (DeRiVE 2011, 2012, 2013, 2015), SemStats (2013, 2014, 2015, 2016, 2017), LiME (2014, 2015, 2016) at ESWC, ISWC or WWW. He also gave numerous tutorials at WWW (2014, 2008), ESWC (2016) and ISWC (2008, 2009).
+Raphaël Troncy is an associate professor in the Data Science department at EURECOM whose research mainly concerns the use of semantic web technologies in multimedia systems, knowledge modeling for information systems, data integration, knowledge extraction and web science in general. He is the primary investigator of a number of national (e.g. ACAV, Datalift, DOREMUS, ASRAEL, NexGen-TV) and EU projects (e.g. Apps4Europe, LinkedTV, MediaMixer, 3cixty, PasTime) in the area of this tutorial proposal. He was a co-organiser of numerous workshops (DeRiVE 2011, 2012, 2013, 2015), SemStats (2013, 2014, 2015, 2016, 2017), LiME (2014, 2015, 2016) at ESWC, ISWC or WWW. He also gave numerous tutorials at WWW (2014, 2008), ESWC (2016), ISWC (2008, 2009) and K-CAP (2017).
 
 </p>
 
